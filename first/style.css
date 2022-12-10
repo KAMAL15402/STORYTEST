@@ -1,0 +1,43 @@
+body {
+    background: #ddd9a7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d4e020, #aed423);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c8c9bb, #dfe07d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    }
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
